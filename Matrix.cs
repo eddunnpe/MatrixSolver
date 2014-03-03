@@ -40,7 +40,7 @@ namespace Matrix
             float[] fRowBuffer = new float[cols];
             float[] sRowBuffer = new float[cols];
 
-            for(int col = 0; col < cols; col++)
+            for (int col = 0; col < cols; col++)
             {
                 fRowBuffer[col] = matrix[fRow, col];
                 sRowBuffer[col] = matrix[sRow, col];
